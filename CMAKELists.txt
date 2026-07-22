@@ -18,3 +18,8 @@ target_include_directories(OSSimulator PRIVATE
 )
 
 target_link_libraries(OSSimulator PRIVATE SDL3::SDL3)
+
+message(STATUS "Sources:")
+foreach(file ${SOURCES})
+    message(STATUS "${file}")
+endforeach()

@@ -9,6 +9,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/OSSimulator.dir/src/engine/window.cpp.o.d"
   "CMakeFiles/OSSimulator.dir/src/main.cpp.o"
   "CMakeFiles/OSSimulator.dir/src/main.cpp.o.d"
+  "CMakeFiles/OSSimulator.dir/src/os/process.cpp.o"
+  "CMakeFiles/OSSimulator.dir/src/os/process.cpp.o.d"
+  "CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o"
+  "CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o.d"
   "OSSimulator"
   "OSSimulator.pdb"
 )

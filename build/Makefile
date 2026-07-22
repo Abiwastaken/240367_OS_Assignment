@@ -249,6 +249,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/os/process.o: src/os/process.cpp.o
+.PHONY : src/os/process.o
+
+# target to build an object file
+src/os/process.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/process.cpp.o
+.PHONY : src/os/process.cpp.o
+
+src/os/process.i: src/os/process.cpp.i
+.PHONY : src/os/process.i
+
+# target to preprocess a source file
+src/os/process.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/process.cpp.i
+.PHONY : src/os/process.cpp.i
+
+src/os/process.s: src/os/process.cpp.s
+.PHONY : src/os/process.s
+
+# target to generate assembly for a file
+src/os/process.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/process.cpp.s
+.PHONY : src/os/process.cpp.s
+
+src/os/scheduler.o: src/os/scheduler.cpp.o
+.PHONY : src/os/scheduler.o
+
+# target to build an object file
+src/os/scheduler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o
+.PHONY : src/os/scheduler.cpp.o
+
+src/os/scheduler.i: src/os/scheduler.cpp.i
+.PHONY : src/os/scheduler.i
+
+# target to preprocess a source file
+src/os/scheduler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.i
+.PHONY : src/os/scheduler.cpp.i
+
+src/os/scheduler.s: src/os/scheduler.cpp.s
+.PHONY : src/os/scheduler.s
+
+# target to generate assembly for a file
+src/os/scheduler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.s
+.PHONY : src/os/scheduler.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -273,6 +321,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/os/process.o"
+	@echo "... src/os/process.i"
+	@echo "... src/os/process.s"
+	@echo "... src/os/scheduler.o"
+	@echo "... src/os/scheduler.i"
+	@echo "... src/os/scheduler.s"
 .PHONY : help
 
 

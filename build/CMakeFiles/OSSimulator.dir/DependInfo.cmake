@@ -13,6 +13,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/engine/renderer.cpp" "CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.o.d"
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/engine/window.cpp" "CMakeFiles/OSSimulator.dir/src/engine/window.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/engine/window.cpp.o.d"
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/main.cpp" "CMakeFiles/OSSimulator.dir/src/main.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/main.cpp.o.d"
+  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/process.cpp" "CMakeFiles/OSSimulator.dir/src/os/process.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/process.cpp.o.d"
+  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/scheduler.cpp" "CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,5 +1,5 @@
 #include "engine/application.h"
-
+#include "os/scheduler.h"
 #include "engine/window.h"
 #include "engine/renderer.h"
 #include "engine/input.h"
@@ -22,21 +22,28 @@ void Application::run()
 
     Renderer renderer(window);
     Input input;
+    
+    Scheduler scheduler;
 
     while (running)
     {
         running = input.process();
 
         renderer.clear();
-        renderer.drawRectangle(
-    100,
-    100,
-    50,
-    50,
-    0,
-    255,
-    0
-);
+       scheduler.update();
+
+for (const Process& process : scheduler.getProcesses())
+{
+    renderer.drawRectangle(
+        process.getX(),
+        process.getY(),
+        process.getWidth(),
+        process.getHeight(),
+        process.getRed(),
+        process.getGreen(),
+        process.getBlue()
+    );
+}
         
 
         renderer.present();

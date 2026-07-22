@@ -142,13 +142,43 @@ CMakeFiles/OSSimulator.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OSSimulator.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/main.cpp" -o CMakeFiles/OSSimulator.dir/src/main.cpp.s
 
+CMakeFiles/OSSimulator.dir/src/os/process.cpp.o: CMakeFiles/OSSimulator.dir/flags.make
+CMakeFiles/OSSimulator.dir/src/os/process.cpp.o: /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/src/os/process.cpp
+CMakeFiles/OSSimulator.dir/src/os/process.cpp.o: CMakeFiles/OSSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OSSimulator.dir/src/os/process.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OSSimulator.dir/src/os/process.cpp.o -MF CMakeFiles/OSSimulator.dir/src/os/process.cpp.o.d -o CMakeFiles/OSSimulator.dir/src/os/process.cpp.o -c "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/process.cpp"
+
+CMakeFiles/OSSimulator.dir/src/os/process.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OSSimulator.dir/src/os/process.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/process.cpp" > CMakeFiles/OSSimulator.dir/src/os/process.cpp.i
+
+CMakeFiles/OSSimulator.dir/src/os/process.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OSSimulator.dir/src/os/process.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/process.cpp" -o CMakeFiles/OSSimulator.dir/src/os/process.cpp.s
+
+CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o: CMakeFiles/OSSimulator.dir/flags.make
+CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o: /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/src/os/scheduler.cpp
+CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o: CMakeFiles/OSSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o -MF CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o.d -o CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o -c "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/scheduler.cpp"
+
+CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/scheduler.cpp" > CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.i
+
+CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/scheduler.cpp" -o CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.s
+
 # Object files for target OSSimulator
 OSSimulator_OBJECTS = \
 "CMakeFiles/OSSimulator.dir/src/engine/application.cpp.o" \
 "CMakeFiles/OSSimulator.dir/src/engine/input.cpp.o" \
 "CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.o" \
 "CMakeFiles/OSSimulator.dir/src/engine/window.cpp.o" \
-"CMakeFiles/OSSimulator.dir/src/main.cpp.o"
+"CMakeFiles/OSSimulator.dir/src/main.cpp.o" \
+"CMakeFiles/OSSimulator.dir/src/os/process.cpp.o" \
+"CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o"
 
 # External object files for target OSSimulator
 OSSimulator_EXTERNAL_OBJECTS =
@@ -158,10 +188,12 @@ OSSimulator: CMakeFiles/OSSimulator.dir/src/engine/input.cpp.o
 OSSimulator: CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.o
 OSSimulator: CMakeFiles/OSSimulator.dir/src/engine/window.cpp.o
 OSSimulator: CMakeFiles/OSSimulator.dir/src/main.cpp.o
+OSSimulator: CMakeFiles/OSSimulator.dir/src/os/process.cpp.o
+OSSimulator: CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o
 OSSimulator: CMakeFiles/OSSimulator.dir/build.make
 OSSimulator: /opt/homebrew/lib/libSDL3.0.dylib
 OSSimulator: CMakeFiles/OSSimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable OSSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable OSSimulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OSSimulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
