@@ -13,8 +13,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/engine/renderer.cpp" "CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.o.d"
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/engine/window.cpp" "CMakeFiles/OSSimulator.dir/src/engine/window.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/engine/window.cpp.o.d"
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/main.cpp" "CMakeFiles/OSSimulator.dir/src/main.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/main.cpp.o.d"
+  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/cpu.cpp" "CMakeFiles/OSSimulator.dir/src/os/cpu.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/cpu.cpp.o.d"
+  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/file.cpp" "CMakeFiles/OSSimulator.dir/src/os/file.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/file.cpp.o.d"
+  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/filesystem.cpp" "CMakeFiles/OSSimulator.dir/src/os/filesystem.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/filesystem.cpp.o.d"
+  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/memoryblock.cpp" "CMakeFiles/OSSimulator.dir/src/os/memoryblock.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/memoryblock.cpp.o.d"
+  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/memorymanager.cpp" "CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.o.d"
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/process.cpp" "CMakeFiles/OSSimulator.dir/src/os/process.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/process.cpp.o.d"
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/scheduler.cpp" "CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o.d"
+  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/user.cpp" "CMakeFiles/OSSimulator.dir/src/os/user.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/user.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

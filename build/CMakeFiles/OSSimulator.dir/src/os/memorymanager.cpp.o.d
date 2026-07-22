@@ -1,7 +1,6 @@
-CMakeFiles/OSSimulator.dir/src/engine/application.cpp.o: \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/src/engine/application.cpp \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/include/engine/application.h \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/include/os/scheduler.h \
+CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.o: \
+  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/src/os/memorymanager.cpp \
+  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/include/os/memorymanager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -901,75 +900,4 @@ CMakeFiles/OSSimulator.dir/src/engine/application.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wbuffer_convert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/include/os/process.h \
-  /opt/homebrew/include/SDL3/SDL.h \
-  /opt/homebrew/include/SDL3/SDL_stdinc.h \
-  /opt/homebrew/include/SDL3/SDL_platform_defines.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /opt/homebrew/include/SDL3/SDL_begin_code.h \
-  /opt/homebrew/include/SDL3/SDL_close_code.h \
-  /opt/homebrew/include/SDL3/SDL_assert.h \
-  /opt/homebrew/include/SDL3/SDL_asyncio.h \
-  /opt/homebrew/include/SDL3/SDL_atomic.h \
-  /opt/homebrew/include/SDL3/SDL_audio.h \
-  /opt/homebrew/include/SDL3/SDL_endian.h \
-  /opt/homebrew/include/SDL3/SDL_error.h \
-  /opt/homebrew/include/SDL3/SDL_mutex.h \
-  /opt/homebrew/include/SDL3/SDL_thread.h \
-  /opt/homebrew/include/SDL3/SDL_properties.h \
-  /opt/homebrew/include/SDL3/SDL_iostream.h \
-  /opt/homebrew/include/SDL3/SDL_bits.h \
-  /opt/homebrew/include/SDL3/SDL_blendmode.h \
-  /opt/homebrew/include/SDL3/SDL_camera.h \
-  /opt/homebrew/include/SDL3/SDL_pixels.h \
-  /opt/homebrew/include/SDL3/SDL_surface.h \
-  /opt/homebrew/include/SDL3/SDL_rect.h \
-  /opt/homebrew/include/SDL3/SDL_clipboard.h \
-  /opt/homebrew/include/SDL3/SDL_cpuinfo.h \
-  /opt/homebrew/include/SDL3/SDL_dialog.h \
-  /opt/homebrew/include/SDL3/SDL_video.h \
-  /opt/homebrew/include/SDL3/SDL_dlopennote.h \
-  /opt/homebrew/include/SDL3/SDL_events.h \
-  /opt/homebrew/include/SDL3/SDL_gamepad.h \
-  /opt/homebrew/include/SDL3/SDL_guid.h \
-  /opt/homebrew/include/SDL3/SDL_joystick.h \
-  /opt/homebrew/include/SDL3/SDL_power.h \
-  /opt/homebrew/include/SDL3/SDL_sensor.h \
-  /opt/homebrew/include/SDL3/SDL_keyboard.h \
-  /opt/homebrew/include/SDL3/SDL_keycode.h \
-  /opt/homebrew/include/SDL3/SDL_scancode.h \
-  /opt/homebrew/include/SDL3/SDL_mouse.h \
-  /opt/homebrew/include/SDL3/SDL_pen.h \
-  /opt/homebrew/include/SDL3/SDL_touch.h \
-  /opt/homebrew/include/SDL3/SDL_filesystem.h \
-  /opt/homebrew/include/SDL3/SDL_gpu.h \
-  /opt/homebrew/include/SDL3/SDL_haptic.h \
-  /opt/homebrew/include/SDL3/SDL_hidapi.h \
-  /opt/homebrew/include/SDL3/SDL_hints.h \
-  /opt/homebrew/include/SDL3/SDL_init.h \
-  /opt/homebrew/include/SDL3/SDL_loadso.h \
-  /opt/homebrew/include/SDL3/SDL_locale.h \
-  /opt/homebrew/include/SDL3/SDL_log.h \
-  /opt/homebrew/include/SDL3/SDL_messagebox.h \
-  /opt/homebrew/include/SDL3/SDL_metal.h \
-  /opt/homebrew/include/SDL3/SDL_misc.h \
-  /opt/homebrew/include/SDL3/SDL_platform.h \
-  /opt/homebrew/include/SDL3/SDL_process.h \
-  /opt/homebrew/include/SDL3/SDL_render.h \
-  /opt/homebrew/include/SDL3/SDL_storage.h \
-  /opt/homebrew/include/SDL3/SDL_system.h \
-  /opt/homebrew/include/SDL3/SDL_time.h \
-  /opt/homebrew/include/SDL3/SDL_timer.h \
-  /opt/homebrew/include/SDL3/SDL_tray.h \
-  /opt/homebrew/include/SDL3/SDL_version.h \
-  /opt/homebrew/include/SDL3/SDL_oldnames.h \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/include/engine/window.h \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/include/engine/renderer.h \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/include/engine/input.h \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/include/os/cpu.h \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/include/os/file.h \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/include/os/filesystem.h \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/include/os/user.h \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/include/os/memorymanager.h \
   /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/include/os/memoryblock.h

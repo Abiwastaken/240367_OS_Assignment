@@ -249,6 +249,126 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/os/cpu.o: src/os/cpu.cpp.o
+.PHONY : src/os/cpu.o
+
+# target to build an object file
+src/os/cpu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/cpu.cpp.o
+.PHONY : src/os/cpu.cpp.o
+
+src/os/cpu.i: src/os/cpu.cpp.i
+.PHONY : src/os/cpu.i
+
+# target to preprocess a source file
+src/os/cpu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/cpu.cpp.i
+.PHONY : src/os/cpu.cpp.i
+
+src/os/cpu.s: src/os/cpu.cpp.s
+.PHONY : src/os/cpu.s
+
+# target to generate assembly for a file
+src/os/cpu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/cpu.cpp.s
+.PHONY : src/os/cpu.cpp.s
+
+src/os/file.o: src/os/file.cpp.o
+.PHONY : src/os/file.o
+
+# target to build an object file
+src/os/file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/file.cpp.o
+.PHONY : src/os/file.cpp.o
+
+src/os/file.i: src/os/file.cpp.i
+.PHONY : src/os/file.i
+
+# target to preprocess a source file
+src/os/file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/file.cpp.i
+.PHONY : src/os/file.cpp.i
+
+src/os/file.s: src/os/file.cpp.s
+.PHONY : src/os/file.s
+
+# target to generate assembly for a file
+src/os/file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/file.cpp.s
+.PHONY : src/os/file.cpp.s
+
+src/os/filesystem.o: src/os/filesystem.cpp.o
+.PHONY : src/os/filesystem.o
+
+# target to build an object file
+src/os/filesystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/filesystem.cpp.o
+.PHONY : src/os/filesystem.cpp.o
+
+src/os/filesystem.i: src/os/filesystem.cpp.i
+.PHONY : src/os/filesystem.i
+
+# target to preprocess a source file
+src/os/filesystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/filesystem.cpp.i
+.PHONY : src/os/filesystem.cpp.i
+
+src/os/filesystem.s: src/os/filesystem.cpp.s
+.PHONY : src/os/filesystem.s
+
+# target to generate assembly for a file
+src/os/filesystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/filesystem.cpp.s
+.PHONY : src/os/filesystem.cpp.s
+
+src/os/memoryblock.o: src/os/memoryblock.cpp.o
+.PHONY : src/os/memoryblock.o
+
+# target to build an object file
+src/os/memoryblock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/memoryblock.cpp.o
+.PHONY : src/os/memoryblock.cpp.o
+
+src/os/memoryblock.i: src/os/memoryblock.cpp.i
+.PHONY : src/os/memoryblock.i
+
+# target to preprocess a source file
+src/os/memoryblock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/memoryblock.cpp.i
+.PHONY : src/os/memoryblock.cpp.i
+
+src/os/memoryblock.s: src/os/memoryblock.cpp.s
+.PHONY : src/os/memoryblock.s
+
+# target to generate assembly for a file
+src/os/memoryblock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/memoryblock.cpp.s
+.PHONY : src/os/memoryblock.cpp.s
+
+src/os/memorymanager.o: src/os/memorymanager.cpp.o
+.PHONY : src/os/memorymanager.o
+
+# target to build an object file
+src/os/memorymanager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.o
+.PHONY : src/os/memorymanager.cpp.o
+
+src/os/memorymanager.i: src/os/memorymanager.cpp.i
+.PHONY : src/os/memorymanager.i
+
+# target to preprocess a source file
+src/os/memorymanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.i
+.PHONY : src/os/memorymanager.cpp.i
+
+src/os/memorymanager.s: src/os/memorymanager.cpp.s
+.PHONY : src/os/memorymanager.s
+
+# target to generate assembly for a file
+src/os/memorymanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.s
+.PHONY : src/os/memorymanager.cpp.s
+
 src/os/process.o: src/os/process.cpp.o
 .PHONY : src/os/process.o
 
@@ -297,6 +417,30 @@ src/os/scheduler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.s
 .PHONY : src/os/scheduler.cpp.s
 
+src/os/user.o: src/os/user.cpp.o
+.PHONY : src/os/user.o
+
+# target to build an object file
+src/os/user.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/user.cpp.o
+.PHONY : src/os/user.cpp.o
+
+src/os/user.i: src/os/user.cpp.i
+.PHONY : src/os/user.i
+
+# target to preprocess a source file
+src/os/user.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/user.cpp.i
+.PHONY : src/os/user.cpp.i
+
+src/os/user.s: src/os/user.cpp.s
+.PHONY : src/os/user.s
+
+# target to generate assembly for a file
+src/os/user.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/user.cpp.s
+.PHONY : src/os/user.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -321,12 +465,30 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/os/cpu.o"
+	@echo "... src/os/cpu.i"
+	@echo "... src/os/cpu.s"
+	@echo "... src/os/file.o"
+	@echo "... src/os/file.i"
+	@echo "... src/os/file.s"
+	@echo "... src/os/filesystem.o"
+	@echo "... src/os/filesystem.i"
+	@echo "... src/os/filesystem.s"
+	@echo "... src/os/memoryblock.o"
+	@echo "... src/os/memoryblock.i"
+	@echo "... src/os/memoryblock.s"
+	@echo "... src/os/memorymanager.o"
+	@echo "... src/os/memorymanager.i"
+	@echo "... src/os/memorymanager.s"
 	@echo "... src/os/process.o"
 	@echo "... src/os/process.i"
 	@echo "... src/os/process.s"
 	@echo "... src/os/scheduler.o"
 	@echo "... src/os/scheduler.i"
 	@echo "... src/os/scheduler.s"
+	@echo "... src/os/user.o"
+	@echo "... src/os/user.i"
+	@echo "... src/os/user.s"
 .PHONY : help
 
 
