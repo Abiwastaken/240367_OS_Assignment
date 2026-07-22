@@ -7,7 +7,7 @@ Process::Process(int pid, int x, int y)
     state = ProcessState::Ready;
 
     arrivalTime = 0;
-    burstTime = 5;
+    burstTime = pid*3;
     remainingTime = burstTime;
     priority = 1;
 
@@ -52,18 +52,68 @@ int Process::getHeight() const
 {
     return height;
 }
-
 int Process::getRed() const
 {
-    return red;
+    switch(state)
+    {
+        case ProcessState::Ready: return 0;
+        case ProcessState::Running: return 0;
+        case ProcessState::Finished: return 120;
+        default: return 255;
+    }
 }
 
 int Process::getGreen() const
 {
-    return green;
+    switch(state)
+    {
+        case ProcessState::Ready: return 120;
+        case ProcessState::Running: return 255;
+        case ProcessState::Finished: return 120;
+        default: return 255;
+    }
 }
 
 int Process::getBlue() const
 {
-    return blue;
+    switch(state)
+    {
+        case ProcessState::Ready: return 255;
+        case ProcessState::Running: return 0;
+        case ProcessState::Finished: return 120;
+        default: return 255;
+    }
+}
+
+
+
+void Process::setState(ProcessState newState)
+{
+    state = newState;
+}
+
+int Process::getRemainingTime() const
+{
+    return remainingTime;
+}
+
+void Process::setRemainingTime(int time)
+{
+    remainingTime = time;
+}
+
+int Process::getArrivalTime() const
+{
+    return arrivalTime;
+}
+
+int Process::getBurstTime() const
+{
+    return burstTime;
+}
+
+void Process::setBurstTime(int burst)
+{
+    burstTime = burst;
+    remainingTime = burst;
 }

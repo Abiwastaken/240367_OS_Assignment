@@ -11,7 +11,7 @@ enum class ProcessState
 class Process
 {
 public:
-    Process(int pid, int x, int y);
+        Process(int pid, int x, int y);
 
     int getPID() const;
     ProcessState getState() const;
@@ -25,6 +25,16 @@ public:
     int getRed() const;
     int getGreen() const;
     int getBlue() const;
+    
+    
+ 
+
+    int getArrivalTime() const;
+    int getBurstTime() const;
+    int getRemainingTime() const;
+    void setBurstTime(int burst);
+    void setRemainingTime(int time);
+    void setState(ProcessState newState);
 
 private:
     int pid;

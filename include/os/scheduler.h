@@ -12,7 +12,12 @@ public:
     void update();
 
     const std::vector<Process>& getProcesses() const;
+    
 
 private:
     std::vector<Process> processes;
+
+    int currentProcess;
+    int frameCounter;
+    
 };
