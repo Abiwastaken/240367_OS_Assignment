@@ -129,6 +129,102 @@ OSSimulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/build
 .PHONY : OSSimulator/fast
 
+src/engine/application.o: src/engine/application.cpp.o
+.PHONY : src/engine/application.o
+
+# target to build an object file
+src/engine/application.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/application.cpp.o
+.PHONY : src/engine/application.cpp.o
+
+src/engine/application.i: src/engine/application.cpp.i
+.PHONY : src/engine/application.i
+
+# target to preprocess a source file
+src/engine/application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/application.cpp.i
+.PHONY : src/engine/application.cpp.i
+
+src/engine/application.s: src/engine/application.cpp.s
+.PHONY : src/engine/application.s
+
+# target to generate assembly for a file
+src/engine/application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/application.cpp.s
+.PHONY : src/engine/application.cpp.s
+
+src/engine/input.o: src/engine/input.cpp.o
+.PHONY : src/engine/input.o
+
+# target to build an object file
+src/engine/input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/input.cpp.o
+.PHONY : src/engine/input.cpp.o
+
+src/engine/input.i: src/engine/input.cpp.i
+.PHONY : src/engine/input.i
+
+# target to preprocess a source file
+src/engine/input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/input.cpp.i
+.PHONY : src/engine/input.cpp.i
+
+src/engine/input.s: src/engine/input.cpp.s
+.PHONY : src/engine/input.s
+
+# target to generate assembly for a file
+src/engine/input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/input.cpp.s
+.PHONY : src/engine/input.cpp.s
+
+src/engine/renderer.o: src/engine/renderer.cpp.o
+.PHONY : src/engine/renderer.o
+
+# target to build an object file
+src/engine/renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.o
+.PHONY : src/engine/renderer.cpp.o
+
+src/engine/renderer.i: src/engine/renderer.cpp.i
+.PHONY : src/engine/renderer.i
+
+# target to preprocess a source file
+src/engine/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.i
+.PHONY : src/engine/renderer.cpp.i
+
+src/engine/renderer.s: src/engine/renderer.cpp.s
+.PHONY : src/engine/renderer.s
+
+# target to generate assembly for a file
+src/engine/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.s
+.PHONY : src/engine/renderer.cpp.s
+
+src/engine/window.o: src/engine/window.cpp.o
+.PHONY : src/engine/window.o
+
+# target to build an object file
+src/engine/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/window.cpp.o
+.PHONY : src/engine/window.cpp.o
+
+src/engine/window.i: src/engine/window.cpp.i
+.PHONY : src/engine/window.i
+
+# target to preprocess a source file
+src/engine/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/window.cpp.i
+.PHONY : src/engine/window.cpp.i
+
+src/engine/window.s: src/engine/window.cpp.s
+.PHONY : src/engine/window.s
+
+# target to generate assembly for a file
+src/engine/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/window.cpp.s
+.PHONY : src/engine/window.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OSSimulator"
+	@echo "... src/engine/application.o"
+	@echo "... src/engine/application.i"
+	@echo "... src/engine/application.s"
+	@echo "... src/engine/input.o"
+	@echo "... src/engine/input.i"
+	@echo "... src/engine/input.s"
+	@echo "... src/engine/renderer.o"
+	@echo "... src/engine/renderer.i"
+	@echo "... src/engine/renderer.s"
+	@echo "... src/engine/window.o"
+	@echo "... src/engine/window.i"
+	@echo "... src/engine/window.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

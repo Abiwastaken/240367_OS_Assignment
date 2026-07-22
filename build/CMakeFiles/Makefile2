@@ -85,12 +85,12 @@ clean: CMakeFiles/OSSimulator.dir/clean
 CMakeFiles/OSSimulator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=1,2 "Built target OSSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target OSSimulator"
 .PHONY : CMakeFiles/OSSimulator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OSSimulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/OSSimulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 0
 .PHONY : CMakeFiles/OSSimulator.dir/rule
@@ -102,7 +102,7 @@ OSSimulator: CMakeFiles/OSSimulator.dir/rule
 # codegen rule for target.
 CMakeFiles/OSSimulator.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=1,2 "Finished codegen for target OSSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Finished codegen for target OSSimulator"
 .PHONY : CMakeFiles/OSSimulator.dir/codegen
 
 # clean rule for target.

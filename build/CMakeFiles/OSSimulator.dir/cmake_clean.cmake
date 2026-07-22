@@ -1,4 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/OSSimulator.dir/src/engine/application.cpp.o"
+  "CMakeFiles/OSSimulator.dir/src/engine/application.cpp.o.d"
+  "CMakeFiles/OSSimulator.dir/src/engine/input.cpp.o"
+  "CMakeFiles/OSSimulator.dir/src/engine/input.cpp.o.d"
+  "CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.o"
+  "CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.o.d"
+  "CMakeFiles/OSSimulator.dir/src/engine/window.cpp.o"
+  "CMakeFiles/OSSimulator.dir/src/engine/window.cpp.o.d"
   "CMakeFiles/OSSimulator.dir/src/main.cpp.o"
   "CMakeFiles/OSSimulator.dir/src/main.cpp.o.d"
   "OSSimulator"
