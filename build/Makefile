@@ -369,6 +369,54 @@ src/os/memorymanager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.s
 .PHONY : src/os/memorymanager.cpp.s
 
+src/os/networkmanager.o: src/os/networkmanager.cpp.o
+.PHONY : src/os/networkmanager.o
+
+# target to build an object file
+src/os/networkmanager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.o
+.PHONY : src/os/networkmanager.cpp.o
+
+src/os/networkmanager.i: src/os/networkmanager.cpp.i
+.PHONY : src/os/networkmanager.i
+
+# target to preprocess a source file
+src/os/networkmanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.i
+.PHONY : src/os/networkmanager.cpp.i
+
+src/os/networkmanager.s: src/os/networkmanager.cpp.s
+.PHONY : src/os/networkmanager.s
+
+# target to generate assembly for a file
+src/os/networkmanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.s
+.PHONY : src/os/networkmanager.cpp.s
+
+src/os/networkpacket.o: src/os/networkpacket.cpp.o
+.PHONY : src/os/networkpacket.o
+
+# target to build an object file
+src/os/networkpacket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.o
+.PHONY : src/os/networkpacket.cpp.o
+
+src/os/networkpacket.i: src/os/networkpacket.cpp.i
+.PHONY : src/os/networkpacket.i
+
+# target to preprocess a source file
+src/os/networkpacket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.i
+.PHONY : src/os/networkpacket.cpp.i
+
+src/os/networkpacket.s: src/os/networkpacket.cpp.s
+.PHONY : src/os/networkpacket.s
+
+# target to generate assembly for a file
+src/os/networkpacket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.s
+.PHONY : src/os/networkpacket.cpp.s
+
 src/os/process.o: src/os/process.cpp.o
 .PHONY : src/os/process.o
 
@@ -416,6 +464,30 @@ src/os/scheduler.s: src/os/scheduler.cpp.s
 src/os/scheduler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.s
 .PHONY : src/os/scheduler.cpp.s
+
+src/os/threadmanager.o: src/os/threadmanager.cpp.o
+.PHONY : src/os/threadmanager.o
+
+# target to build an object file
+src/os/threadmanager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.o
+.PHONY : src/os/threadmanager.cpp.o
+
+src/os/threadmanager.i: src/os/threadmanager.cpp.i
+.PHONY : src/os/threadmanager.i
+
+# target to preprocess a source file
+src/os/threadmanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.i
+.PHONY : src/os/threadmanager.cpp.i
+
+src/os/threadmanager.s: src/os/threadmanager.cpp.s
+.PHONY : src/os/threadmanager.s
+
+# target to generate assembly for a file
+src/os/threadmanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.s
+.PHONY : src/os/threadmanager.cpp.s
 
 src/os/user.o: src/os/user.cpp.o
 .PHONY : src/os/user.o
@@ -480,12 +552,21 @@ help:
 	@echo "... src/os/memorymanager.o"
 	@echo "... src/os/memorymanager.i"
 	@echo "... src/os/memorymanager.s"
+	@echo "... src/os/networkmanager.o"
+	@echo "... src/os/networkmanager.i"
+	@echo "... src/os/networkmanager.s"
+	@echo "... src/os/networkpacket.o"
+	@echo "... src/os/networkpacket.i"
+	@echo "... src/os/networkpacket.s"
 	@echo "... src/os/process.o"
 	@echo "... src/os/process.i"
 	@echo "... src/os/process.s"
 	@echo "... src/os/scheduler.o"
 	@echo "... src/os/scheduler.i"
 	@echo "... src/os/scheduler.s"
+	@echo "... src/os/threadmanager.o"
+	@echo "... src/os/threadmanager.i"
+	@echo "... src/os/threadmanager.s"
 	@echo "... src/os/user.o"
 	@echo "... src/os/user.i"
 	@echo "... src/os/user.s"

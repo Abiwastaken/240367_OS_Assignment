@@ -212,10 +212,38 @@ CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/memorymanager.cpp" -o CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.s
 
+CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.o: CMakeFiles/OSSimulator.dir/flags.make
+CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.o: /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/src/os/networkmanager.cpp
+CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.o: CMakeFiles/OSSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.o -MF CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.o.d -o CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.o -c "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/networkmanager.cpp"
+
+CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/networkmanager.cpp" > CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.i
+
+CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/networkmanager.cpp" -o CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.s
+
+CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.o: CMakeFiles/OSSimulator.dir/flags.make
+CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.o: /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/src/os/networkpacket.cpp
+CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.o: CMakeFiles/OSSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.o -MF CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.o.d -o CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.o -c "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/networkpacket.cpp"
+
+CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/networkpacket.cpp" > CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.i
+
+CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/networkpacket.cpp" -o CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.s
+
 CMakeFiles/OSSimulator.dir/src/os/process.cpp.o: CMakeFiles/OSSimulator.dir/flags.make
 CMakeFiles/OSSimulator.dir/src/os/process.cpp.o: /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/src/os/process.cpp
 CMakeFiles/OSSimulator.dir/src/os/process.cpp.o: CMakeFiles/OSSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OSSimulator.dir/src/os/process.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/OSSimulator.dir/src/os/process.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OSSimulator.dir/src/os/process.cpp.o -MF CMakeFiles/OSSimulator.dir/src/os/process.cpp.o.d -o CMakeFiles/OSSimulator.dir/src/os/process.cpp.o -c "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/process.cpp"
 
 CMakeFiles/OSSimulator.dir/src/os/process.cpp.i: cmake_force
@@ -229,7 +257,7 @@ CMakeFiles/OSSimulator.dir/src/os/process.cpp.s: cmake_force
 CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o: CMakeFiles/OSSimulator.dir/flags.make
 CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o: /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/src/os/scheduler.cpp
 CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o: CMakeFiles/OSSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o -MF CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o.d -o CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o -c "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/scheduler.cpp"
 
 CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.i: cmake_force
@@ -240,10 +268,24 @@ CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/scheduler.cpp" -o CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.s
 
+CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.o: CMakeFiles/OSSimulator.dir/flags.make
+CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.o: /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/src/os/threadmanager.cpp
+CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.o: CMakeFiles/OSSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.o -MF CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.o.d -o CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.o -c "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/threadmanager.cpp"
+
+CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/threadmanager.cpp" > CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.i
+
+CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/threadmanager.cpp" -o CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.s
+
 CMakeFiles/OSSimulator.dir/src/os/user.cpp.o: CMakeFiles/OSSimulator.dir/flags.make
 CMakeFiles/OSSimulator.dir/src/os/user.cpp.o: /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/src/os/user.cpp
 CMakeFiles/OSSimulator.dir/src/os/user.cpp.o: CMakeFiles/OSSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/OSSimulator.dir/src/os/user.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/OSSimulator.dir/src/os/user.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OSSimulator.dir/src/os/user.cpp.o -MF CMakeFiles/OSSimulator.dir/src/os/user.cpp.o.d -o CMakeFiles/OSSimulator.dir/src/os/user.cpp.o -c "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/user.cpp"
 
 CMakeFiles/OSSimulator.dir/src/os/user.cpp.i: cmake_force
@@ -266,8 +308,11 @@ OSSimulator_OBJECTS = \
 "CMakeFiles/OSSimulator.dir/src/os/filesystem.cpp.o" \
 "CMakeFiles/OSSimulator.dir/src/os/memoryblock.cpp.o" \
 "CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.o" \
+"CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.o" \
+"CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.o" \
 "CMakeFiles/OSSimulator.dir/src/os/process.cpp.o" \
 "CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o" \
+"CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.o" \
 "CMakeFiles/OSSimulator.dir/src/os/user.cpp.o"
 
 # External object files for target OSSimulator
@@ -283,13 +328,16 @@ OSSimulator: CMakeFiles/OSSimulator.dir/src/os/file.cpp.o
 OSSimulator: CMakeFiles/OSSimulator.dir/src/os/filesystem.cpp.o
 OSSimulator: CMakeFiles/OSSimulator.dir/src/os/memoryblock.cpp.o
 OSSimulator: CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.o
+OSSimulator: CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.o
+OSSimulator: CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.o
 OSSimulator: CMakeFiles/OSSimulator.dir/src/os/process.cpp.o
 OSSimulator: CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o
+OSSimulator: CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.o
 OSSimulator: CMakeFiles/OSSimulator.dir/src/os/user.cpp.o
 OSSimulator: CMakeFiles/OSSimulator.dir/build.make
 OSSimulator: /opt/homebrew/lib/libSDL3.0.dylib
 OSSimulator: CMakeFiles/OSSimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable OSSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable OSSimulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OSSimulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -18,8 +18,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/filesystem.cpp" "CMakeFiles/OSSimulator.dir/src/os/filesystem.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/filesystem.cpp.o.d"
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/memoryblock.cpp" "CMakeFiles/OSSimulator.dir/src/os/memoryblock.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/memoryblock.cpp.o.d"
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/memorymanager.cpp" "CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.o.d"
+  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/networkmanager.cpp" "CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.o.d"
+  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/networkpacket.cpp" "CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.o.d"
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/process.cpp" "CMakeFiles/OSSimulator.dir/src/os/process.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/process.cpp.o.d"
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/scheduler.cpp" "CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o.d"
+  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/threadmanager.cpp" "CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.o.d"
   "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/src/os/user.cpp" "CMakeFiles/OSSimulator.dir/src/os/user.cpp.o" "gcc" "CMakeFiles/OSSimulator.dir/src/os/user.cpp.o.d"
   )
 
