@@ -117,401 +117,189 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named OSSimulator
+# Target rules for targets named task1
 
 # Build rule for target.
-OSSimulator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OSSimulator
-.PHONY : OSSimulator
+task1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task1
+.PHONY : task1
 
 # fast build rule for target.
-OSSimulator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/build
-.PHONY : OSSimulator/fast
+task1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/build
+.PHONY : task1/fast
 
-src/engine/application.o: src/engine/application.cpp.o
-.PHONY : src/engine/application.o
+#=============================================================================
+# Target rules for targets named task2
 
-# target to build an object file
-src/engine/application.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/application.cpp.o
-.PHONY : src/engine/application.cpp.o
+# Build rule for target.
+task2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task2
+.PHONY : task2
 
-src/engine/application.i: src/engine/application.cpp.i
-.PHONY : src/engine/application.i
+# fast build rule for target.
+task2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
+.PHONY : task2/fast
 
-# target to preprocess a source file
-src/engine/application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/application.cpp.i
-.PHONY : src/engine/application.cpp.i
+#=============================================================================
+# Target rules for targets named task3
 
-src/engine/application.s: src/engine/application.cpp.s
-.PHONY : src/engine/application.s
+# Build rule for target.
+task3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task3
+.PHONY : task3
 
-# target to generate assembly for a file
-src/engine/application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/application.cpp.s
-.PHONY : src/engine/application.cpp.s
+# fast build rule for target.
+task3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/build
+.PHONY : task3/fast
 
-src/engine/input.o: src/engine/input.cpp.o
-.PHONY : src/engine/input.o
+#=============================================================================
+# Target rules for targets named server
 
-# target to build an object file
-src/engine/input.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/input.cpp.o
-.PHONY : src/engine/input.cpp.o
+# Build rule for target.
+server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server
+.PHONY : server
 
-src/engine/input.i: src/engine/input.cpp.i
-.PHONY : src/engine/input.i
+# fast build rule for target.
+server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+.PHONY : server/fast
 
-# target to preprocess a source file
-src/engine/input.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/input.cpp.i
-.PHONY : src/engine/input.cpp.i
+#=============================================================================
+# Target rules for targets named client
 
-src/engine/input.s: src/engine/input.cpp.s
-.PHONY : src/engine/input.s
+# Build rule for target.
+client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client
+.PHONY : client
 
-# target to generate assembly for a file
-src/engine/input.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/input.cpp.s
-.PHONY : src/engine/input.cpp.s
+# fast build rule for target.
+client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+.PHONY : client/fast
 
-src/engine/renderer.o: src/engine/renderer.cpp.o
-.PHONY : src/engine/renderer.o
-
-# target to build an object file
-src/engine/renderer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.o
-.PHONY : src/engine/renderer.cpp.o
-
-src/engine/renderer.i: src/engine/renderer.cpp.i
-.PHONY : src/engine/renderer.i
-
-# target to preprocess a source file
-src/engine/renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.i
-.PHONY : src/engine/renderer.cpp.i
-
-src/engine/renderer.s: src/engine/renderer.cpp.s
-.PHONY : src/engine/renderer.s
-
-# target to generate assembly for a file
-src/engine/renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/renderer.cpp.s
-.PHONY : src/engine/renderer.cpp.s
-
-src/engine/window.o: src/engine/window.cpp.o
-.PHONY : src/engine/window.o
+task1_threads/task1_threads.o: task1_threads/task1_threads.cpp.o
+.PHONY : task1_threads/task1_threads.o
 
 # target to build an object file
-src/engine/window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/window.cpp.o
-.PHONY : src/engine/window.cpp.o
+task1_threads/task1_threads.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/task1_threads/task1_threads.cpp.o
+.PHONY : task1_threads/task1_threads.cpp.o
 
-src/engine/window.i: src/engine/window.cpp.i
-.PHONY : src/engine/window.i
+task1_threads/task1_threads.i: task1_threads/task1_threads.cpp.i
+.PHONY : task1_threads/task1_threads.i
 
 # target to preprocess a source file
-src/engine/window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/window.cpp.i
-.PHONY : src/engine/window.cpp.i
+task1_threads/task1_threads.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/task1_threads/task1_threads.cpp.i
+.PHONY : task1_threads/task1_threads.cpp.i
 
-src/engine/window.s: src/engine/window.cpp.s
-.PHONY : src/engine/window.s
+task1_threads/task1_threads.s: task1_threads/task1_threads.cpp.s
+.PHONY : task1_threads/task1_threads.s
 
 # target to generate assembly for a file
-src/engine/window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/engine/window.cpp.s
-.PHONY : src/engine/window.cpp.s
+task1_threads/task1_threads.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/task1_threads/task1_threads.cpp.s
+.PHONY : task1_threads/task1_threads.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+task2_memory/task2_memory.o: task2_memory/task2_memory.cpp.o
+.PHONY : task2_memory/task2_memory.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+task2_memory/task2_memory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/task2_memory/task2_memory.cpp.o
+.PHONY : task2_memory/task2_memory.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+task2_memory/task2_memory.i: task2_memory/task2_memory.cpp.i
+.PHONY : task2_memory/task2_memory.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+task2_memory/task2_memory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/task2_memory/task2_memory.cpp.i
+.PHONY : task2_memory/task2_memory.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+task2_memory/task2_memory.s: task2_memory/task2_memory.cpp.s
+.PHONY : task2_memory/task2_memory.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+task2_memory/task2_memory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/task2_memory/task2_memory.cpp.s
+.PHONY : task2_memory/task2_memory.cpp.s
 
-src/os/cpu.o: src/os/cpu.cpp.o
-.PHONY : src/os/cpu.o
+task3_filesystem/task3_filesystem.o: task3_filesystem/task3_filesystem.cpp.o
+.PHONY : task3_filesystem/task3_filesystem.o
 
 # target to build an object file
-src/os/cpu.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/cpu.cpp.o
-.PHONY : src/os/cpu.cpp.o
+task3_filesystem/task3_filesystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/task3_filesystem/task3_filesystem.cpp.o
+.PHONY : task3_filesystem/task3_filesystem.cpp.o
 
-src/os/cpu.i: src/os/cpu.cpp.i
-.PHONY : src/os/cpu.i
+task3_filesystem/task3_filesystem.i: task3_filesystem/task3_filesystem.cpp.i
+.PHONY : task3_filesystem/task3_filesystem.i
 
 # target to preprocess a source file
-src/os/cpu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/cpu.cpp.i
-.PHONY : src/os/cpu.cpp.i
+task3_filesystem/task3_filesystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/task3_filesystem/task3_filesystem.cpp.i
+.PHONY : task3_filesystem/task3_filesystem.cpp.i
 
-src/os/cpu.s: src/os/cpu.cpp.s
-.PHONY : src/os/cpu.s
+task3_filesystem/task3_filesystem.s: task3_filesystem/task3_filesystem.cpp.s
+.PHONY : task3_filesystem/task3_filesystem.s
 
 # target to generate assembly for a file
-src/os/cpu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/cpu.cpp.s
-.PHONY : src/os/cpu.cpp.s
+task3_filesystem/task3_filesystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/task3_filesystem/task3_filesystem.cpp.s
+.PHONY : task3_filesystem/task3_filesystem.cpp.s
 
-src/os/file.o: src/os/file.cpp.o
-.PHONY : src/os/file.o
+task4_network/client.o: task4_network/client.cpp.o
+.PHONY : task4_network/client.o
 
 # target to build an object file
-src/os/file.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/file.cpp.o
-.PHONY : src/os/file.cpp.o
+task4_network/client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/task4_network/client.cpp.o
+.PHONY : task4_network/client.cpp.o
 
-src/os/file.i: src/os/file.cpp.i
-.PHONY : src/os/file.i
+task4_network/client.i: task4_network/client.cpp.i
+.PHONY : task4_network/client.i
 
 # target to preprocess a source file
-src/os/file.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/file.cpp.i
-.PHONY : src/os/file.cpp.i
+task4_network/client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/task4_network/client.cpp.i
+.PHONY : task4_network/client.cpp.i
 
-src/os/file.s: src/os/file.cpp.s
-.PHONY : src/os/file.s
+task4_network/client.s: task4_network/client.cpp.s
+.PHONY : task4_network/client.s
 
 # target to generate assembly for a file
-src/os/file.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/file.cpp.s
-.PHONY : src/os/file.cpp.s
+task4_network/client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/task4_network/client.cpp.s
+.PHONY : task4_network/client.cpp.s
 
-src/os/filesystem.o: src/os/filesystem.cpp.o
-.PHONY : src/os/filesystem.o
+task4_network/server.o: task4_network/server.cpp.o
+.PHONY : task4_network/server.o
 
 # target to build an object file
-src/os/filesystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/filesystem.cpp.o
-.PHONY : src/os/filesystem.cpp.o
+task4_network/server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/task4_network/server.cpp.o
+.PHONY : task4_network/server.cpp.o
 
-src/os/filesystem.i: src/os/filesystem.cpp.i
-.PHONY : src/os/filesystem.i
-
-# target to preprocess a source file
-src/os/filesystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/filesystem.cpp.i
-.PHONY : src/os/filesystem.cpp.i
-
-src/os/filesystem.s: src/os/filesystem.cpp.s
-.PHONY : src/os/filesystem.s
-
-# target to generate assembly for a file
-src/os/filesystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/filesystem.cpp.s
-.PHONY : src/os/filesystem.cpp.s
-
-src/os/memoryblock.o: src/os/memoryblock.cpp.o
-.PHONY : src/os/memoryblock.o
-
-# target to build an object file
-src/os/memoryblock.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/memoryblock.cpp.o
-.PHONY : src/os/memoryblock.cpp.o
-
-src/os/memoryblock.i: src/os/memoryblock.cpp.i
-.PHONY : src/os/memoryblock.i
+task4_network/server.i: task4_network/server.cpp.i
+.PHONY : task4_network/server.i
 
 # target to preprocess a source file
-src/os/memoryblock.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/memoryblock.cpp.i
-.PHONY : src/os/memoryblock.cpp.i
+task4_network/server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/task4_network/server.cpp.i
+.PHONY : task4_network/server.cpp.i
 
-src/os/memoryblock.s: src/os/memoryblock.cpp.s
-.PHONY : src/os/memoryblock.s
-
-# target to generate assembly for a file
-src/os/memoryblock.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/memoryblock.cpp.s
-.PHONY : src/os/memoryblock.cpp.s
-
-src/os/memorymanager.o: src/os/memorymanager.cpp.o
-.PHONY : src/os/memorymanager.o
-
-# target to build an object file
-src/os/memorymanager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.o
-.PHONY : src/os/memorymanager.cpp.o
-
-src/os/memorymanager.i: src/os/memorymanager.cpp.i
-.PHONY : src/os/memorymanager.i
-
-# target to preprocess a source file
-src/os/memorymanager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.i
-.PHONY : src/os/memorymanager.cpp.i
-
-src/os/memorymanager.s: src/os/memorymanager.cpp.s
-.PHONY : src/os/memorymanager.s
+task4_network/server.s: task4_network/server.cpp.s
+.PHONY : task4_network/server.s
 
 # target to generate assembly for a file
-src/os/memorymanager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/memorymanager.cpp.s
-.PHONY : src/os/memorymanager.cpp.s
-
-src/os/networkmanager.o: src/os/networkmanager.cpp.o
-.PHONY : src/os/networkmanager.o
-
-# target to build an object file
-src/os/networkmanager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.o
-.PHONY : src/os/networkmanager.cpp.o
-
-src/os/networkmanager.i: src/os/networkmanager.cpp.i
-.PHONY : src/os/networkmanager.i
-
-# target to preprocess a source file
-src/os/networkmanager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.i
-.PHONY : src/os/networkmanager.cpp.i
-
-src/os/networkmanager.s: src/os/networkmanager.cpp.s
-.PHONY : src/os/networkmanager.s
-
-# target to generate assembly for a file
-src/os/networkmanager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/networkmanager.cpp.s
-.PHONY : src/os/networkmanager.cpp.s
-
-src/os/networkpacket.o: src/os/networkpacket.cpp.o
-.PHONY : src/os/networkpacket.o
-
-# target to build an object file
-src/os/networkpacket.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.o
-.PHONY : src/os/networkpacket.cpp.o
-
-src/os/networkpacket.i: src/os/networkpacket.cpp.i
-.PHONY : src/os/networkpacket.i
-
-# target to preprocess a source file
-src/os/networkpacket.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.i
-.PHONY : src/os/networkpacket.cpp.i
-
-src/os/networkpacket.s: src/os/networkpacket.cpp.s
-.PHONY : src/os/networkpacket.s
-
-# target to generate assembly for a file
-src/os/networkpacket.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/networkpacket.cpp.s
-.PHONY : src/os/networkpacket.cpp.s
-
-src/os/process.o: src/os/process.cpp.o
-.PHONY : src/os/process.o
-
-# target to build an object file
-src/os/process.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/process.cpp.o
-.PHONY : src/os/process.cpp.o
-
-src/os/process.i: src/os/process.cpp.i
-.PHONY : src/os/process.i
-
-# target to preprocess a source file
-src/os/process.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/process.cpp.i
-.PHONY : src/os/process.cpp.i
-
-src/os/process.s: src/os/process.cpp.s
-.PHONY : src/os/process.s
-
-# target to generate assembly for a file
-src/os/process.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/process.cpp.s
-.PHONY : src/os/process.cpp.s
-
-src/os/scheduler.o: src/os/scheduler.cpp.o
-.PHONY : src/os/scheduler.o
-
-# target to build an object file
-src/os/scheduler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.o
-.PHONY : src/os/scheduler.cpp.o
-
-src/os/scheduler.i: src/os/scheduler.cpp.i
-.PHONY : src/os/scheduler.i
-
-# target to preprocess a source file
-src/os/scheduler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.i
-.PHONY : src/os/scheduler.cpp.i
-
-src/os/scheduler.s: src/os/scheduler.cpp.s
-.PHONY : src/os/scheduler.s
-
-# target to generate assembly for a file
-src/os/scheduler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/scheduler.cpp.s
-.PHONY : src/os/scheduler.cpp.s
-
-src/os/threadmanager.o: src/os/threadmanager.cpp.o
-.PHONY : src/os/threadmanager.o
-
-# target to build an object file
-src/os/threadmanager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.o
-.PHONY : src/os/threadmanager.cpp.o
-
-src/os/threadmanager.i: src/os/threadmanager.cpp.i
-.PHONY : src/os/threadmanager.i
-
-# target to preprocess a source file
-src/os/threadmanager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.i
-.PHONY : src/os/threadmanager.cpp.i
-
-src/os/threadmanager.s: src/os/threadmanager.cpp.s
-.PHONY : src/os/threadmanager.s
-
-# target to generate assembly for a file
-src/os/threadmanager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/threadmanager.cpp.s
-.PHONY : src/os/threadmanager.cpp.s
-
-src/os/user.o: src/os/user.cpp.o
-.PHONY : src/os/user.o
-
-# target to build an object file
-src/os/user.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/user.cpp.o
-.PHONY : src/os/user.cpp.o
-
-src/os/user.i: src/os/user.cpp.i
-.PHONY : src/os/user.i
-
-# target to preprocess a source file
-src/os/user.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/user.cpp.i
-.PHONY : src/os/user.cpp.i
-
-src/os/user.s: src/os/user.cpp.s
-.PHONY : src/os/user.s
-
-# target to generate assembly for a file
-src/os/user.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/src/os/user.cpp.s
-.PHONY : src/os/user.cpp.s
+task4_network/server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/task4_network/server.cpp.s
+.PHONY : task4_network/server.cpp.s
 
 # Help Target
 help:
@@ -521,55 +309,26 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... OSSimulator"
-	@echo "... src/engine/application.o"
-	@echo "... src/engine/application.i"
-	@echo "... src/engine/application.s"
-	@echo "... src/engine/input.o"
-	@echo "... src/engine/input.i"
-	@echo "... src/engine/input.s"
-	@echo "... src/engine/renderer.o"
-	@echo "... src/engine/renderer.i"
-	@echo "... src/engine/renderer.s"
-	@echo "... src/engine/window.o"
-	@echo "... src/engine/window.i"
-	@echo "... src/engine/window.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
-	@echo "... src/os/cpu.o"
-	@echo "... src/os/cpu.i"
-	@echo "... src/os/cpu.s"
-	@echo "... src/os/file.o"
-	@echo "... src/os/file.i"
-	@echo "... src/os/file.s"
-	@echo "... src/os/filesystem.o"
-	@echo "... src/os/filesystem.i"
-	@echo "... src/os/filesystem.s"
-	@echo "... src/os/memoryblock.o"
-	@echo "... src/os/memoryblock.i"
-	@echo "... src/os/memoryblock.s"
-	@echo "... src/os/memorymanager.o"
-	@echo "... src/os/memorymanager.i"
-	@echo "... src/os/memorymanager.s"
-	@echo "... src/os/networkmanager.o"
-	@echo "... src/os/networkmanager.i"
-	@echo "... src/os/networkmanager.s"
-	@echo "... src/os/networkpacket.o"
-	@echo "... src/os/networkpacket.i"
-	@echo "... src/os/networkpacket.s"
-	@echo "... src/os/process.o"
-	@echo "... src/os/process.i"
-	@echo "... src/os/process.s"
-	@echo "... src/os/scheduler.o"
-	@echo "... src/os/scheduler.i"
-	@echo "... src/os/scheduler.s"
-	@echo "... src/os/threadmanager.o"
-	@echo "... src/os/threadmanager.i"
-	@echo "... src/os/threadmanager.s"
-	@echo "... src/os/user.o"
-	@echo "... src/os/user.i"
-	@echo "... src/os/user.s"
+	@echo "... client"
+	@echo "... server"
+	@echo "... task1"
+	@echo "... task2"
+	@echo "... task3"
+	@echo "... task1_threads/task1_threads.o"
+	@echo "... task1_threads/task1_threads.i"
+	@echo "... task1_threads/task1_threads.s"
+	@echo "... task2_memory/task2_memory.o"
+	@echo "... task2_memory/task2_memory.i"
+	@echo "... task2_memory/task2_memory.s"
+	@echo "... task3_filesystem/task3_filesystem.o"
+	@echo "... task3_filesystem/task3_filesystem.i"
+	@echo "... task3_filesystem/task3_filesystem.s"
+	@echo "... task4_network/client.o"
+	@echo "... task4_network/client.i"
+	@echo "... task4_network/client.s"
+	@echo "... task4_network/server.o"
+	@echo "... task4_network/server.i"
+	@echo "... task4_network/server.s"
 .PHONY : help
 
 

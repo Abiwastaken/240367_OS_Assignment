@@ -63,11 +63,19 @@ CMAKE_BINARY_DIR = "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignmen
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/OSSimulator.dir/all
+all: CMakeFiles/task1.dir/all
+all: CMakeFiles/task2.dir/all
+all: CMakeFiles/task3.dir/all
+all: CMakeFiles/server.dir/all
+all: CMakeFiles/client.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/OSSimulator.dir/codegen
+codegen: CMakeFiles/task1.dir/codegen
+codegen: CMakeFiles/task2.dir/codegen
+codegen: CMakeFiles/task3.dir/codegen
+codegen: CMakeFiles/server.dir/codegen
+codegen: CMakeFiles/client.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +83,172 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/OSSimulator.dir/clean
+clean: CMakeFiles/task1.dir/clean
+clean: CMakeFiles/task2.dir/clean
+clean: CMakeFiles/task3.dir/clean
+clean: CMakeFiles/server.dir/clean
+clean: CMakeFiles/client.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/OSSimulator.dir
+# Target rules for target CMakeFiles/task1.dir
 
 # All Build rule for target.
-CMakeFiles/OSSimulator.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target OSSimulator"
-.PHONY : CMakeFiles/OSSimulator.dir/all
+CMakeFiles/task1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=5,6 "Built target task1"
+.PHONY : CMakeFiles/task1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/OSSimulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 17
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/OSSimulator.dir/all
+CMakeFiles/task1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 0
-.PHONY : CMakeFiles/OSSimulator.dir/rule
+.PHONY : CMakeFiles/task1.dir/rule
 
 # Convenience name for target.
-OSSimulator: CMakeFiles/OSSimulator.dir/rule
-.PHONY : OSSimulator
+task1: CMakeFiles/task1.dir/rule
+.PHONY : task1
 
 # codegen rule for target.
-CMakeFiles/OSSimulator.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Finished codegen for target OSSimulator"
-.PHONY : CMakeFiles/OSSimulator.dir/codegen
+CMakeFiles/task1.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=5,6 "Finished codegen for target task1"
+.PHONY : CMakeFiles/task1.dir/codegen
 
 # clean rule for target.
-CMakeFiles/OSSimulator.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSSimulator.dir/build.make CMakeFiles/OSSimulator.dir/clean
-.PHONY : CMakeFiles/OSSimulator.dir/clean
+CMakeFiles/task1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/clean
+.PHONY : CMakeFiles/task1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/task2.dir
+
+# All Build rule for target.
+CMakeFiles/task2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=7,8 "Built target task2"
+.PHONY : CMakeFiles/task2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/task2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 0
+.PHONY : CMakeFiles/task2.dir/rule
+
+# Convenience name for target.
+task2: CMakeFiles/task2.dir/rule
+.PHONY : task2
+
+# codegen rule for target.
+CMakeFiles/task2.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=7,8 "Finished codegen for target task2"
+.PHONY : CMakeFiles/task2.dir/codegen
+
+# clean rule for target.
+CMakeFiles/task2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/clean
+.PHONY : CMakeFiles/task2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/task3.dir
+
+# All Build rule for target.
+CMakeFiles/task3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=9,10 "Built target task3"
+.PHONY : CMakeFiles/task3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/task3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 0
+.PHONY : CMakeFiles/task3.dir/rule
+
+# Convenience name for target.
+task3: CMakeFiles/task3.dir/rule
+.PHONY : task3
+
+# codegen rule for target.
+CMakeFiles/task3.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=9,10 "Finished codegen for target task3"
+.PHONY : CMakeFiles/task3.dir/codegen
+
+# clean rule for target.
+CMakeFiles/task3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/clean
+.PHONY : CMakeFiles/task3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/server.dir
+
+# All Build rule for target.
+CMakeFiles/server.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=3,4 "Built target server"
+.PHONY : CMakeFiles/server.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 0
+.PHONY : CMakeFiles/server.dir/rule
+
+# Convenience name for target.
+server: CMakeFiles/server.dir/rule
+.PHONY : server
+
+# codegen rule for target.
+CMakeFiles/server.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=3,4 "Finished codegen for target server"
+.PHONY : CMakeFiles/server.dir/codegen
+
+# clean rule for target.
+CMakeFiles/server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/clean
+.PHONY : CMakeFiles/server.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/client.dir
+
+# All Build rule for target.
+CMakeFiles/client.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=1,2 "Built target client"
+.PHONY : CMakeFiles/client.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" 0
+.PHONY : CMakeFiles/client.dir/rule
+
+# Convenience name for target.
+client: CMakeFiles/client.dir/rule
+.PHONY : client
+
+# codegen rule for target.
+CMakeFiles/client.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/build/CMakeFiles" --progress-num=1,2 "Finished codegen for target client"
+.PHONY : CMakeFiles/client.dir/codegen
+
+# clean rule for target.
+CMakeFiles/client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/clean
+.PHONY : CMakeFiles/client.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
