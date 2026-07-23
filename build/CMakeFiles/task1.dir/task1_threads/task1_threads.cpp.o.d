@@ -1,5 +1,5 @@
 CMakeFiles/task1.dir/task1_threads/task1_threads.cpp.o: \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/task1_threads/task1_threads.cpp \
+  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_AbikalMukhiya/task1_threads/task1_threads.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

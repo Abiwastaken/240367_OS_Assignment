@@ -1,5 +1,5 @@
 CMakeFiles/server.dir/task4_network/server.cpp.o: \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/task4_network/server.cpp \
+  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_AbikalMukhiya/task4_network/server.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/task4_network/client.cpp" "CMakeFiles/client.dir/task4_network/client.cpp.o" "gcc" "CMakeFiles/client.dir/task4_network/client.cpp.o.d"
+  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_AbikalMukhiya/task4_network/client.cpp" "CMakeFiles/client.dir/task4_network/client.cpp.o" "gcc" "CMakeFiles/client.dir/task4_network/client.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

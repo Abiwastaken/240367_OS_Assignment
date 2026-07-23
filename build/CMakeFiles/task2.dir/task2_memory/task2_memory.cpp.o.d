@@ -1,5 +1,5 @@
 CMakeFiles/task2.dir/task2_memory/task2_memory.cpp.o: \
-  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_OS_Assignment/task2_memory/task2_memory.cpp \
+  /Users/abi/Desktop/SOSO/FINAL\ assignment/240367_AbikalMukhiya/task2_memory/task2_memory.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_OS_Assignment/task2_memory/task2_memory.cpp" "CMakeFiles/task2.dir/task2_memory/task2_memory.cpp.o" "gcc" "CMakeFiles/task2.dir/task2_memory/task2_memory.cpp.o.d"
+  "/Users/abi/Desktop/SOSO/FINAL assignment/240367_AbikalMukhiya/task2_memory/task2_memory.cpp" "CMakeFiles/task2.dir/task2_memory/task2_memory.cpp.o" "gcc" "CMakeFiles/task2.dir/task2_memory/task2_memory.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
