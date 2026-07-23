@@ -1,6 +1,4 @@
-// ============================================================
 // TASK 4: Network Programming and IPC -- SERVER
-// ============================================================
 // A real TCP server (plain POSIX sockets). Handles multiple
 // clients at once by giving each one its own thread.
 //
@@ -12,7 +10,7 @@
 //
 // Compile with:  g++ -std=c++20 server.cpp -pthread -o server
 // Run with:      ./server        (leave this running)
-// ============================================================
+
 
 #include <iostream>
 #include <thread>

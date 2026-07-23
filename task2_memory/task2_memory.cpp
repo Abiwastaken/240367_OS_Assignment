@@ -1,6 +1,5 @@
-// ============================================================
+
 // TASK 2: Memory Management Simulation
-// ============================================================
 // Simulates virtual memory paging:
 //   - a program asks for a sequence of pages (numbers)
 //   - we only have a small number of "frames" (slots of RAM)
@@ -12,7 +11,7 @@
 //
 // Compile with:  g++ -std=c++20 task2_memory.cpp -o task2
 // Run with:      ./task2
-// ============================================================
+
 
 #include <iostream>
 #include <vector>
@@ -93,7 +92,7 @@ PagingResult simulateLRU(const std::vector<int>& referenceString, int numFrames)
     }
     return result;
 }
-
+// main function
 int main()
 {
     std::vector<int> referenceString = {1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5};

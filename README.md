@@ -82,9 +82,3 @@ multiple "client connected" lines before any "client disconnected" line.
   (`LOGIN`/`MSG`/`LIST`/`QUIT`); the client logs in and talks to it, and
   pauses briefly so you can test multiple clients at once (see above).
 
-## Things worth saying honestly in your write-up
-- The password "hash" is `std::hash<std::string>` — fast, but not a real
-  cryptographic hash (no salt). A real system would use bcrypt/Argon2.
-- The file "encryption" is a single-byte XOR cipher — easy to break if
-  someone guesses one byte. A real system would use AES.
-- The networking code is POSIX-only (no Windows sockets support).

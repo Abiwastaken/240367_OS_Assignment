@@ -1,12 +1,10 @@
-// ============================================================
 // TASK 4: Network Programming and IPC -- CLIENT
-// ============================================================
 // Connects to server.cpp and runs through the whole protocol
 // once, printing what it sends and what it gets back.
 //
 // Compile with:  g++ -std=c++20 client.cpp -o client
 // Run with:      ./client       (server.cpp must already be running)
-// ============================================================
+
 
 #include <iostream>
 #include <string>

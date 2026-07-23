@@ -1,6 +1,4 @@
-// ============================================================
 // TASK 3: File System Operations and Security
-// ============================================================
 // A tiny in-memory file system with:
 //   - create / read / write / delete
 //   - user authentication (password is HASHED, never stored as plain text)
@@ -10,7 +8,7 @@
 //
 // Compile with:  g++ -std=c++20 task3_filesystem.cpp -o task3
 // Run with:      ./task3
-// ============================================================
+
 
 #include <iostream>
 #include <vector>
@@ -18,7 +16,7 @@
 #include <chrono>
 #include <ctime>
 
-// ---------------- User ----------------
+// User 
 struct User
 {
     int id;
@@ -37,7 +35,7 @@ struct User
     }
 };
 
-// ---------------- File ----------------
+// File 
 struct File
 {
     std::string name;
@@ -67,7 +65,7 @@ struct File
     }
 };
 
-// ---------------- FileSystem ----------------
+// FileSystem 
 class FileSystem
 {
 public:
@@ -156,7 +154,7 @@ private:
                             " file=" + fileName + " result=" + (allowed ? "ALLOWED" : "DENIED"));
     }
 };
-
+// main function
 int main()
 {
     User alice(1, "alice", "password123");
