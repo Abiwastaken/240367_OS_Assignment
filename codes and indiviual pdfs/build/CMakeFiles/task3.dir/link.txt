@@ -1,1 +1,0 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/task3.dir/task3_filesystem/task3_filesystem.cpp.o -o task3
