@@ -1,0 +1,7 @@
+/Users/abi/Desktop/ALAL assignment/SOSO assignment/240367_AbikalMukhiya/codes and indiviual pdfs/build/CMakeFiles/task1.dir
+/Users/abi/Desktop/ALAL assignment/SOSO assignment/240367_AbikalMukhiya/codes and indiviual pdfs/build/CMakeFiles/task2.dir
+/Users/abi/Desktop/ALAL assignment/SOSO assignment/240367_AbikalMukhiya/codes and indiviual pdfs/build/CMakeFiles/task3.dir
+/Users/abi/Desktop/ALAL assignment/SOSO assignment/240367_AbikalMukhiya/codes and indiviual pdfs/build/CMakeFiles/server.dir
+/Users/abi/Desktop/ALAL assignment/SOSO assignment/240367_AbikalMukhiya/codes and indiviual pdfs/build/CMakeFiles/client.dir
+/Users/abi/Desktop/ALAL assignment/SOSO assignment/240367_AbikalMukhiya/codes and indiviual pdfs/build/CMakeFiles/edit_cache.dir
+/Users/abi/Desktop/ALAL assignment/SOSO assignment/240367_AbikalMukhiya/codes and indiviual pdfs/build/CMakeFiles/rebuild_cache.dir
